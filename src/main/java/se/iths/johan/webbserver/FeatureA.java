@@ -13,7 +13,7 @@ public class FeatureA extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        resp.getWriter().println("Feature A");
+        resp.getWriter().println("Feature B");
     }
 
 }
